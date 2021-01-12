@@ -10,15 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".VistaReservasUsuario"></activity>
-        <activity android:name=".AlergiasUsuario" />
+        <activity android:name=".Login" />
         <activity android:name=".HacerReserva" />
         <activity android:name=".CalendarioReserva" />
         <activity android:name=".RestauranteBuscado" />
         <activity android:name=".PerfilUsuario" />
         <activity android:name=".BusquedaRestaurante" />
         <activity android:name=".MenuUsuario" />
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AlergiasUsuario">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

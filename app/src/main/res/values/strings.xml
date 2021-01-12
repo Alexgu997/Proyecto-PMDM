@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">PrimeraAplicacion</string>
+    <string name="app_name">Resves</string>
+
+
+    <string name="radioButtonCena">Cena</string>
+    <string name="radioButtonComida">Comida</string>
+    <string name="buttonReservarHora">Hacer Reserva</string>
+    <string name="textViewNumeroPersonaTitulo">Numero Personas</string>
+    <string name="textViewHoraTitulo">Hora</string>
+
+    <string name="buttonHacerReserva">Hacer Reserva</string>
+    <string name="buttonCartaRestaurante">Carta</string>
+    <string name="textViewRestauranteBuscadoTitulo">Nombre Restaurante</string>
+
+    <string name="buttonMostrarContraseñaLogin">Mostrar Contraseña</string>
+    <string name="buttonHacerLogin">Iniciar Sesion</string>
+    <string name="textViewUsuarioLogin">Usuario</string>
+    <string name="textViewPasswordLogin">Contraseña</string>
+
+    <string name="buttonReservarDia">Reservar Dia</string>
+
+    <string name="buttonReservas">Reservas</string>
+
+    <string name="textViewAlergiasTitulo">Alergias</string>
+    <string name="buttonBorrarAlergia">Borrar</string>
+    <string name="buttonAgregarAlergia">Agregar</string>
+
+    <string name="textViewReservasTitulo">Reservas</string>
+    <string name="textViewFechaTitulo">Fecha</string>
+    <string name="textViewRestauranteTitulo">Restaurante</string>
+    <string name="textViewCoCeTitulo">Co/Ce</string>
+
+
 </resources>

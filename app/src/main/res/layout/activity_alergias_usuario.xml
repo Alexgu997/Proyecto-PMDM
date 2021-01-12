@@ -7,7 +7,7 @@
     tools:context=".AlergiasUsuario">
 
     <TextView
-        android:id="@+id/textViewAlergias"
+        android:id="@+id/textViewAlergiasTitulo"
         android:layout_width="136dp"
         android:layout_height="49dp"
         android:text="TextView"
@@ -27,11 +27,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.297"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewAlergias"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlergiasTitulo"
         app:layout_constraintVertical_bias="0.209" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonAgregarAlergias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonRetornoAlergias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,5 +53,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/abc_vector_test" />
+
+    <LinearLayout
+        android:id="@+id/ConjuntoAlergias"
+        android:layout_width="402dp"
+        android:layout_height="406dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
