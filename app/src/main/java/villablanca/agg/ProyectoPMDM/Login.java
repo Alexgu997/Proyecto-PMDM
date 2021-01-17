@@ -2,6 +2,7 @@ package villablanca.agg.ProyectoPMDM;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +26,12 @@ public class Login extends AppCompatActivity {
                 ocultarContraseña();
             }
         });
+        hacerlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirMenu(v);
+            }
+        });
     }
 
     private void ocultarContraseña() {
@@ -35,5 +42,10 @@ public class Login extends AppCompatActivity {
             contraseña.setInputType(OCULTO);
         }
 
+    }
+
+    private void abrirMenu(View v){
+        Intent i = new Intent(v.getContext(), MenuUsuario.class);
+        startActivity(i);
     }
 }

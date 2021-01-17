@@ -2,6 +2,7 @@
     <string name="app_name">Resves</string>
 
 
+
     <string name="radioButtonCena">Cena</string>
     <string name="radioButtonComida">Comida</string>
     <string name="buttonReservarHora">Hacer Reserva</string>
@@ -20,6 +21,7 @@
     <string name="buttonReservarDia">Reservar Dia</string>
 
     <string name="buttonReservas">Reservas</string>
+    <string name="buttonBuscarRestauranteNombre">Reservas</string>
 
     <string name="textViewAlergiasTitulo">Alergias</string>
     <string name="buttonBorrarAlergia">Borrar</string>
@@ -29,6 +31,8 @@
     <string name="textViewFechaTitulo">Fecha</string>
     <string name="textViewRestauranteTitulo">Restaurante</string>
     <string name="textViewCoCeTitulo">Co/Ce</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

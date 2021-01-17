@@ -16,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
+        tools:src="@tools:sample/avatars"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -41,5 +42,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/abc_vector_test" />
+
+    <Button
+        android:id="@+id/buttonBuscarRestauranteNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReservas"
+        app:layout_constraintEnd_toEndOf="@+id/buttonReservas"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonReservas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
