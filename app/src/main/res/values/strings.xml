@@ -3,6 +3,9 @@
 
 
 
+    <string name="buttonAlergias">Alergias</string>
+    <string name="buttonCuentaBancaria">Cuenta Bancaria</string>
+
     <string name="radioButtonCena">Cena</string>
     <string name="radioButtonComida">Comida</string>
     <string name="buttonReservarHora">Hacer Reserva</string>
@@ -21,7 +24,7 @@
     <string name="buttonReservarDia">Reservar Dia</string>
 
     <string name="buttonReservas">Reservas</string>
-    <string name="buttonBuscarRestauranteNombre">Reservas</string>
+    <string name="buttonBuscarRestauranteNombre">Buscar Restaurante</string>
 
     <string name="textViewAlergiasTitulo">Alergias</string>
     <string name="buttonBorrarAlergia">Borrar</string>

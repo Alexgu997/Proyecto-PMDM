@@ -18,7 +18,9 @@ public class RestauranteBuscado extends AppCompatActivity {
         setContentView(R.layout.activity_restaurante_buscado);
         salir=findViewById(R.id.imageButtonRegresoRestauranteBuscado);
         carta=findViewById(R.id.buttonCartaRestaurante);
+        carta.setText(getString(R.string.buttonCartaRestaurante));
         reservardia=findViewById(R.id.buttonHacerReserva);
+        reservardia.setText(getString(R.string.buttonHacerReserva));
         carta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

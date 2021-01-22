@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
     private final int OCULTO=129;
     private final int VISIBLE=145;
     TextView usuario,contraseña;
+    EditText usuarioet,contraseñaet;
     Button mostrarcontrasenia,hacerlogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +21,12 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         mostrarcontrasenia=findViewById(R.id.buttonMostrarContraseñaLogin);
         hacerlogin=findViewById(R.id.buttonHacerLogin);
-        contraseña=findViewById(R.id.editTextTextPasswordLogin);
+        hacerlogin.setText(getString(R.string.buttonHacerLogin));
+        contraseñaet=findViewById(R.id.editTextTextPasswordLogin);
+        usuario=findViewById(R.id.textViewUsuarioLogin);
+        usuario.setText(getString(R.string.textViewUsuarioLogin));
+        contraseña=findViewById(R.id.textViewPasswordLogin);
+        contraseña.setText(getString(R.string.textViewPasswordLogin));
         mostrarcontrasenia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

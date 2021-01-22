@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 public class PerfilUsuario extends AppCompatActivity {
 
     ImageButton salir;
-    Button alergias;
+    Button alergias,cuentabancaria;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +30,9 @@ public class PerfilUsuario extends AppCompatActivity {
                 abrirActividad(v,AlergiasUsuario.class);
             }
         });
+        alergias.setText(getString(R.string.buttonAlergias));
+        cuentabancaria=findViewById(R.id.buttonCuentaBancaria);
+        cuentabancaria.setText(getString(R.string.buttonCuentaBancaria));
     }
     private void abrirActividad(View v, Class actividadclass) {
         Intent i = new Intent(v.getContext(), actividadclass);

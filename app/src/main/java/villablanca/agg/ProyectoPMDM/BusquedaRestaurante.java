@@ -18,6 +18,7 @@ public class BusquedaRestaurante extends AppCompatActivity {
         setContentView(R.layout.activity_busqueda_restaurante);
         buscar=findViewById(R.id.buttonBusquedaRestaurante);
         salir=findViewById(R.id.imageButtonRegresoBR);
+        buscar.setText(getString(R.string.buttonBuscarRestauranteNombre));
         buscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

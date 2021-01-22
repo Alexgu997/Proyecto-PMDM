@@ -23,6 +23,7 @@ public class CalendarioReserva extends AppCompatActivity {
                 abrirActividad(v, HacerReserva.class);
             }
         });
+        reservardia.setText(getString(R.string.buttonReservarDia));
         salir=findViewById(R.id.imageButtonRegresoCalendario);
         salir.setOnClickListener(new View.OnClickListener() {
             @Override
